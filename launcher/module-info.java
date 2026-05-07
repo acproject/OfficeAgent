@@ -3,5 +3,5 @@ module office.agent.launcher {
     requires java.logging;
     requires java.desktop;
 
-    exports com.owiseman.agent;
+    exports com.owiseman.launcher;
 }

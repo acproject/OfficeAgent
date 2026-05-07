@@ -1,8 +1,9 @@
 package com.owiseman.office;
 
-public class OfficeEngine {
-    
-    public static void process() {
-        System.out.println("Office Engine processing");
-    }
+import java.nio.file.Path;
+
+public interface OfficeRenderer {
+    void applyPatch(DocumentPatch patch);
+    void export(Path path);
+
 }

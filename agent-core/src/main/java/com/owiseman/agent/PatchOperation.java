@@ -1,4 +1,12 @@
 package com.owiseman.agent;
 
-public class PatchOperation {
+public sealed interface PatchOperation
+        permits ReplaceTextPatch,InsertSlidePatch,
+        DeleteBlockPatch {
+
+}
+
+public final class ReplaceTextPatch implements PatchOperation {
+    public String targetId;
+    public String newText;
 }
