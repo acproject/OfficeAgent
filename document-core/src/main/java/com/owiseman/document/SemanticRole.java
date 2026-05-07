@@ -1,3 +1,5 @@
+package com.owiseman.document;
+
 public enum SemanticRole {
     TITLE,
     SUBTITLE,
@@ -10,5 +12,11 @@ public enum SemanticRole {
     CAPTION,
     CODE_BLOCK,
     TABLE,
-    IMAGE
+    IMAGE,
+    ABSTRACT,
+    SECTION_HEADER,
+    PAGE_NUMBER,
+    WATERMARK,
+    NOTE,
+    REFERENCE
 }
