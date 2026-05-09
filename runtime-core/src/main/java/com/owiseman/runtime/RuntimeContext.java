@@ -86,4 +86,8 @@ public final class RuntimeContext {
     public boolean isInitialized() {
         return initialized;
     }
+
+    public static boolean isInitializedStatic() {
+        return instance != null && instance.initialized;
+    }
 }

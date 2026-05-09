@@ -10,33 +10,27 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>launcher</artifactId>
+    <artifactId>desktop-client</artifactId>
     <packaging>jar</packaging>
+
+    <properties>
+        <javafx.version>24.0.1</javafx.version>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.owiseman</groupId>
-            <artifactId>runtime-core</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.owiseman</groupId>
-            <artifactId>document-core</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.owiseman</groupId>
-            <artifactId>ipc-core</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.owiseman</groupId>
-            <artifactId>worker-api</artifactId>
+            <artifactId>api-gateway</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.owiseman</groupId>
             <artifactId>agent-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.owiseman</groupId>
+            <artifactId>document-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
@@ -49,20 +43,21 @@
             <artifactId>pdf-engine</artifactId>
             <version>${project.version}</version>
         </dependency>
+
         <dependency>
-            <groupId>com.owiseman</groupId>
-            <artifactId>native-bridge</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.owiseman</groupId>
-            <artifactId>api-gateway</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.owiseman</groupId>
-            <artifactId>desktop-client</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-web</artifactId>
+            <version>${javafx.version}</version>
         </dependency>
     </dependencies>
 
@@ -70,14 +65,15 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.4.2</version>
+                <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>com.owiseman.launcher.Main</mainClass>
-                        </manifest>
-                    </archive>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <compilerArgs>
+                        <arg>--enable-preview</arg>
+                        <arg>--add-modules</arg>
+                        <arg>javafx.controls,javafx.fxml,javafx.web</arg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>

@@ -37,6 +37,9 @@ public final class ConfigLoader {
         config.put("worker.llama.gpu.layers", "0");
         config.put("logging.level", "INFO");
         config.put("logging.path", "logs");
+        config.put("gateway.host", "0.0.0.0");
+        config.put("gateway.port", "18080");
+        config.put("gateway.cors.enabled", "true");
     }
 
     public void loadFromFile(Path path) throws IOException {

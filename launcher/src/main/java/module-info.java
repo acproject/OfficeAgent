@@ -10,6 +10,8 @@ module office.agent.launcher {
     requires office.agent.office;
     requires office.agent.pdf;
     requires office.agent.nativebridge;
+    requires office.agent.gateway;
+    requires office.agent.desktop;
 
     exports com.owiseman.launcher;
 }

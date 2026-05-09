@@ -19,6 +19,8 @@
         <module>office-engine</module>
         <module>pdf-engine</module>
         <module>native-bridge</module>
+        <module>api-gateway</module>
+        <module>desktop-client</module>
         <module>launcher</module>
         <module>packaging</module>
     </modules>
@@ -115,6 +117,16 @@
             <dependency>
                 <groupId>com.owiseman</groupId>
                 <artifactId>launcher</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.owiseman</groupId>
+                <artifactId>api-gateway</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.owiseman</groupId>
+                <artifactId>desktop-client</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
