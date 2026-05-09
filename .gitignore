@@ -164,3 +164,5 @@ jni-build/
 .idea
 .idae/**
 .idea
+native/llama
+
