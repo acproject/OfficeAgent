@@ -52,6 +52,7 @@ public final class RuntimeContext {
 
     private void doInitialize() {
         LOG.info("Initializing RuntimeContext...");
+        lifecycleManager.transitionTo(LifecycleManager.State.INITIALIZING);
         threadPool.start();
         taskScheduler.start(threadPool);
         lifecycleManager.transitionTo(LifecycleManager.State.INITIALIZED);

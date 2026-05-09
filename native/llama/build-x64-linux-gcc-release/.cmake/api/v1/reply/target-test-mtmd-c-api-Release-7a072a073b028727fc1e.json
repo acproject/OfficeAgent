@@ -1,0 +1,464 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/test-mtmd-c-api"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"llama_build_and_test",
+			"install",
+			"target_link_libraries",
+			"ggml_add_backend_library",
+			"ggml_add_cpu_backend_variant_impl",
+			"add_compile_options",
+			"llama_add_compile_flags"
+		],
+		"files" : 
+		[
+			"tests/CMakeLists.txt",
+			"common/CMakeLists.txt",
+			"tools/mtmd/CMakeLists.txt",
+			"ggml/src/CMakeLists.txt",
+			"ggml/src/ggml-cpu/CMakeLists.txt",
+			"cmake/common.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 157,
+				"parent" : 6
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 44,
+				"parent" : 8
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 430,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 22,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 260,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 240,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 27,
+				"parent" : 15
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wstrict-prototypes"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Werror=implicit-int"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Werror=implicit-function-declaration"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wdouble-promotion"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "GGML_BACKEND_SHARED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "GGML_SHARED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "GGML_USE_CPU"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LLAMA_SHARED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LLAMA_USE_CURL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/common/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/common/../vendor"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/src/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/ggml/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/tools/mtmd/."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wmissing-noreturn"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wno-array-bounds"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wextra-semi"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "GGML_BACKEND_SHARED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "GGML_SHARED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "GGML_USE_CPU"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LLAMA_SHARED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LLAMA_USE_CURL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/common/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/common/../vendor"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/src/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/ggml/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/acproject/workspace/java_projects/OfficeAgent/native/llama/tools/mtmd/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "ggml-base::@64c2a4576bf370762041"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ggml::@64c2a4576bf370762041"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ggml-cpu::@64c2a4576bf370762041"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "llama::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "build_info::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "mtmd::@ac50f19eca97f0c9af9c"
+		}
+	],
+	"id" : "test-mtmd-c-api::@a44f0ac069e85531cdee",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/acproject/workspace/java_projects/OfficeAgent/native/llama/build-x64-linux-gcc-release/bin:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "common/libcommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "bin/libmtmd.so.0.0.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcurl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "bin/libllama.so.0.0.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "bin/libggml.so.0.9.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "bin/libggml-cpu.so.0.9.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "bin/libggml-base.so.0.9.4",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test-mtmd-c-api",
+	"nameOnDisk" : "test-mtmd-c-api",
+	"paths" : 
+	{
+		"build" : "tests",
+		"source" : "tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "tests/test-mtmd-c-api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "tests/get-model.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

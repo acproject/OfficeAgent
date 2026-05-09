@@ -1,0 +1,287 @@
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main main
+INFO: ========================================
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main main
+INFO:   OfficeAgent - AI Office Assistant
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main main
+INFO:   Version: 1.0.0
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main main
+INFO:   Java: 26.0.1
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main main
+INFO:   OS: Linux amd64
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main main
+INFO: ========================================
+May 09, 2026 9:26:51 AM com.owiseman.launcher.RuntimeBootstrap bootstrap
+INFO: Bootstrapping OfficeAgent Runtime...
+May 09, 2026 9:26:51 AM com.owiseman.launcher.RuntimeBootstrap configureLogging
+INFO: Logging configured at level: INFO
+May 09, 2026 9:26:51 AM com.owiseman.runtime.RuntimeContext doInitialize
+INFO: Initializing RuntimeContext...
+May 09, 2026 9:26:51 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: CREATED -> INITIALIZING
+May 09, 2026 9:26:51 AM com.owiseman.runtime.task.VirtualThreadPool start
+INFO: Virtual thread pool started
+May 09, 2026 9:26:51 AM com.owiseman.runtime.task.TaskScheduler start
+INFO: TaskScheduler started
+May 09, 2026 9:26:51 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: INITIALIZING -> INITIALIZED
+May 09, 2026 9:26:51 AM com.owiseman.runtime.RuntimeContext doInitialize
+INFO: RuntimeContext initialized successfully
+May 09, 2026 9:26:51 AM com.owiseman.launcher.RuntimeBootstrap bootstrap
+INFO: OfficeAgent Runtime bootstrapped successfully
+May 09, 2026 9:26:51 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+INFO: Starting worker processes...
+May 09, 2026 9:26:51 AM com.owiseman.launcher.WorkerManager startWorker
+INFO: Starting LLAMA_CPP worker...
+May 09, 2026 9:26:51 AM com.owiseman.launcher.WorkerManager startWorker
+WARNING: Failed to start LLAMA_CPP worker: Failed to connect to worker: No such file or directory
+May 09, 2026 9:26:51 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+WARNING: Some workers failed to start: Failed to connect to worker: No such file or directory
+May 09, 2026 9:26:51 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+INFO: Worker startup complete
+May 09, 2026 9:26:51 AM com.owiseman.gateway.ApiGateway start
+INFO: API Gateway started on http://0.0.0.0:18080
+May 09, 2026 9:26:51 AM com.owiseman.gateway.ApiGateway start
+INFO:   REST API:   http://0.0.0.0:18080/api/v1/
+May 09, 2026 9:26:51 AM com.owiseman.gateway.ApiGateway start
+INFO:   WebSocket:  ws://0.0.0.0:18080/api/v1/ws
+May 09, 2026 9:26:51 AM com.owiseman.gateway.ApiGateway start
+INFO:   Web UI:     http://0.0.0.0:18080/
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main launchHeadless
+INFO: ========================================
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main launchHeadless
+INFO:   OfficeAgent is running in HEADLESS mode
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main launchHeadless
+INFO:   REST API:   http://0.0.0.0:18080/api/v1/
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main launchHeadless
+INFO:   WebSocket:  ws://0.0.0.0:18080/api/v1/ws
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main launchHeadless
+INFO:   Dashboard:  http://0.0.0.0:18080/
+May 09, 2026 9:26:51 AM com.owiseman.launcher.Main launchHeadless
+INFO: ========================================
+May 09, 2026 9:26:59 AM com.owiseman.launcher.Main lambda$main$0
+INFO: Shutdown hook triggered
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main main
+INFO: ========================================
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main main
+INFO:   OfficeAgent - AI Office Assistant
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main main
+INFO:   Version: 1.0.0
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main main
+INFO:   Java: 26.0.1
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main main
+INFO:   OS: Linux amd64
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main main
+INFO: ========================================
+May 09, 2026 9:27:11 AM com.owiseman.launcher.RuntimeBootstrap bootstrap
+INFO: Bootstrapping OfficeAgent Runtime...
+May 09, 2026 9:27:11 AM com.owiseman.launcher.RuntimeBootstrap configureLogging
+INFO: Logging configured at level: INFO
+May 09, 2026 9:27:11 AM com.owiseman.runtime.RuntimeContext doInitialize
+INFO: Initializing RuntimeContext...
+May 09, 2026 9:27:11 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: CREATED -> INITIALIZING
+May 09, 2026 9:27:11 AM com.owiseman.runtime.task.VirtualThreadPool start
+INFO: Virtual thread pool started
+May 09, 2026 9:27:11 AM com.owiseman.runtime.task.TaskScheduler start
+INFO: TaskScheduler started
+May 09, 2026 9:27:11 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: INITIALIZING -> INITIALIZED
+May 09, 2026 9:27:11 AM com.owiseman.runtime.RuntimeContext doInitialize
+INFO: RuntimeContext initialized successfully
+May 09, 2026 9:27:11 AM com.owiseman.launcher.RuntimeBootstrap bootstrap
+INFO: OfficeAgent Runtime bootstrapped successfully
+May 09, 2026 9:27:11 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+INFO: Starting worker processes...
+May 09, 2026 9:27:11 AM com.owiseman.launcher.WorkerManager startWorker
+INFO: Starting LLAMA_CPP worker...
+May 09, 2026 9:27:11 AM com.owiseman.launcher.WorkerManager startWorker
+WARNING: Failed to start LLAMA_CPP worker: Failed to connect to worker: No such file or directory
+May 09, 2026 9:27:11 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+WARNING: Some workers failed to start: Failed to connect to worker: No such file or directory
+May 09, 2026 9:27:11 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+INFO: Worker startup complete
+May 09, 2026 9:27:11 AM com.owiseman.gateway.ApiGateway start
+INFO: API Gateway started on http://0.0.0.0:18080
+May 09, 2026 9:27:11 AM com.owiseman.gateway.ApiGateway start
+INFO:   REST API:   http://0.0.0.0:18080/api/v1/
+May 09, 2026 9:27:11 AM com.owiseman.gateway.ApiGateway start
+INFO:   WebSocket:  ws://0.0.0.0:18080/api/v1/ws
+May 09, 2026 9:27:11 AM com.owiseman.gateway.ApiGateway start
+INFO:   Web UI:     http://0.0.0.0:18080/
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main launchHeadless
+INFO: ========================================
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main launchHeadless
+INFO:   OfficeAgent is running in HEADLESS mode
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main launchHeadless
+INFO:   REST API:   http://0.0.0.0:18080/api/v1/
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main launchHeadless
+INFO:   WebSocket:  ws://0.0.0.0:18080/api/v1/ws
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main launchHeadless
+INFO:   Dashboard:  http://0.0.0.0:18080/
+May 09, 2026 9:27:11 AM com.owiseman.launcher.Main launchHeadless
+INFO: ========================================
+May 09, 2026 9:27:17 AM com.owiseman.launcher.Main lambda$main$0
+INFO: Shutdown hook triggered
+May 09, 2026 9:27:44 AM com.owiseman.launcher.Main main
+INFO: ========================================
+May 09, 2026 9:27:45 AM com.owiseman.launcher.Main main
+INFO:   OfficeAgent - AI Office Assistant
+May 09, 2026 9:27:45 AM com.owiseman.launcher.Main main
+INFO:   Version: 1.0.0
+May 09, 2026 9:27:45 AM com.owiseman.launcher.Main main
+INFO:   Java: 26.0.1
+May 09, 2026 9:27:45 AM com.owiseman.launcher.Main main
+INFO:   OS: Linux amd64
+May 09, 2026 9:27:45 AM com.owiseman.launcher.Main main
+INFO: ========================================
+May 09, 2026 9:27:45 AM com.owiseman.launcher.RuntimeBootstrap bootstrap
+INFO: Bootstrapping OfficeAgent Runtime...
+May 09, 2026 9:27:45 AM com.owiseman.launcher.RuntimeBootstrap configureLogging
+INFO: Logging configured at level: INFO
+May 09, 2026 9:27:45 AM com.owiseman.runtime.RuntimeContext doInitialize
+INFO: Initializing RuntimeContext...
+May 09, 2026 9:27:45 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: CREATED -> INITIALIZING
+May 09, 2026 9:27:45 AM com.owiseman.runtime.task.VirtualThreadPool start
+INFO: Virtual thread pool started
+May 09, 2026 9:27:45 AM com.owiseman.runtime.task.TaskScheduler start
+INFO: TaskScheduler started
+May 09, 2026 9:27:45 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: INITIALIZING -> INITIALIZED
+May 09, 2026 9:27:45 AM com.owiseman.runtime.RuntimeContext doInitialize
+INFO: RuntimeContext initialized successfully
+May 09, 2026 9:27:45 AM com.owiseman.launcher.RuntimeBootstrap bootstrap
+INFO: OfficeAgent Runtime bootstrapped successfully
+May 09, 2026 9:27:45 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+INFO: Starting worker processes...
+May 09, 2026 9:27:45 AM com.owiseman.launcher.WorkerManager startWorker
+INFO: Starting LLAMA_CPP worker...
+May 09, 2026 9:27:45 AM com.owiseman.launcher.WorkerManager startWorker
+WARNING: Failed to start LLAMA_CPP worker: Failed to connect to worker: No such file or directory
+May 09, 2026 9:27:45 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+WARNING: Some workers failed to start: Failed to connect to worker: No such file or directory
+May 09, 2026 9:27:45 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+INFO: Worker startup complete
+May 09, 2026 9:27:45 AM com.owiseman.launcher.Main launchDesktop
+INFO: Launching Desktop UI...
+May 09, 2026 9:27:45 AM com.sun.javafx.application.PlatformImpl startup
+WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @18e102e9'
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.glass.utils.NativeLibLoader in an unnamed module (file:/home/acproject/workspace/java_projects/OfficeAgent/launcher/target/lib/javafx-graphics-24.0.1-linux.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+May 09, 2026 9:27:45 AM com.owiseman.desktop.DesktopApp init
+INFO: Initializing OfficeAgent Desktop...
+May 09, 2026 9:27:45 AM com.owiseman.gateway.ApiGateway start
+INFO: API Gateway started on http://0.0.0.0:18080
+May 09, 2026 9:27:45 AM com.owiseman.gateway.ApiGateway start
+INFO:   REST API:   http://0.0.0.0:18080/api/v1/
+May 09, 2026 9:27:45 AM com.owiseman.gateway.ApiGateway start
+INFO:   WebSocket:  ws://0.0.0.0:18080/api/v1/ws
+May 09, 2026 9:27:45 AM com.owiseman.gateway.ApiGateway start
+INFO:   Web UI:     http://0.0.0.0:18080/
+May 09, 2026 9:27:45 AM com.owiseman.desktop.DesktopApp init
+INFO: API Gateway started on port 18080
+May 09, 2026 9:27:47 AM com.owiseman.desktop.DesktopApp start
+INFO: Desktop UI started
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::allocateMemory has been called by com.sun.marlin.OffHeapArray (file:/home/acproject/workspace/java_projects/OfficeAgent/launcher/target/lib/javafx-graphics-24.0.1-linux.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sun.marlin.OffHeapArray
+WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+May 09, 2026 9:33:18 AM com.owiseman.launcher.Main main
+INFO: ========================================
+May 09, 2026 9:33:18 AM com.owiseman.launcher.Main main
+INFO:   OfficeAgent - AI Office Assistant
+May 09, 2026 9:33:18 AM com.owiseman.launcher.Main main
+INFO:   Version: 1.0.0
+May 09, 2026 9:33:18 AM com.owiseman.launcher.Main main
+INFO:   Java: 26.0.1
+May 09, 2026 9:33:18 AM com.owiseman.launcher.Main main
+INFO:   OS: Linux amd64
+May 09, 2026 9:33:18 AM com.owiseman.launcher.Main main
+INFO: ========================================
+May 09, 2026 9:33:18 AM com.owiseman.launcher.RuntimeBootstrap bootstrap
+INFO: Bootstrapping OfficeAgent Runtime...
+May 09, 2026 9:33:18 AM com.owiseman.launcher.RuntimeBootstrap configureLogging
+INFO: Logging configured at level: INFO
+May 09, 2026 9:33:18 AM com.owiseman.runtime.RuntimeContext doInitialize
+INFO: Initializing RuntimeContext...
+May 09, 2026 9:33:18 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: CREATED -> INITIALIZING
+May 09, 2026 9:33:18 AM com.owiseman.runtime.task.VirtualThreadPool start
+INFO: Virtual thread pool started
+May 09, 2026 9:33:18 AM com.owiseman.runtime.task.TaskScheduler start
+INFO: TaskScheduler started
+May 09, 2026 9:33:18 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: INITIALIZING -> INITIALIZED
+May 09, 2026 9:33:18 AM com.owiseman.runtime.RuntimeContext doInitialize
+INFO: RuntimeContext initialized successfully
+May 09, 2026 9:33:18 AM com.owiseman.launcher.RuntimeBootstrap bootstrap
+INFO: OfficeAgent Runtime bootstrapped successfully
+May 09, 2026 9:33:18 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+INFO: Starting worker processes...
+May 09, 2026 9:33:18 AM com.owiseman.launcher.WorkerManager startWorker
+INFO: Starting LLAMA_CPP worker...
+May 09, 2026 9:33:18 AM com.owiseman.launcher.WorkerManager startWorker
+WARNING: Failed to start LLAMA_CPP worker: Failed to connect to worker: No such file or directory
+May 09, 2026 9:33:18 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+WARNING: Some workers failed to start: Failed to connect to worker: No such file or directory
+May 09, 2026 9:33:18 AM com.owiseman.launcher.RuntimeBootstrap startWorkers
+INFO: Worker startup complete
+May 09, 2026 9:33:18 AM com.owiseman.launcher.Main launchDesktop
+INFO: Launching Desktop UI...
+May 09, 2026 9:33:18 AM com.sun.javafx.application.PlatformImpl startup
+WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @589e4d09'
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.glass.utils.NativeLibLoader in an unnamed module (file:/home/acproject/workspace/java_projects/OfficeAgent/launcher/target/lib/javafx-graphics-24.0.1-linux.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+May 09, 2026 9:33:19 AM com.owiseman.desktop.DesktopApp init
+INFO: Initializing OfficeAgent Desktop...
+May 09, 2026 9:33:19 AM com.owiseman.gateway.ApiGateway start
+INFO: API Gateway started on http://0.0.0.0:18080
+May 09, 2026 9:33:19 AM com.owiseman.gateway.ApiGateway start
+INFO:   REST API:   http://0.0.0.0:18080/api/v1/
+May 09, 2026 9:33:19 AM com.owiseman.gateway.ApiGateway start
+INFO:   WebSocket:  ws://0.0.0.0:18080/api/v1/ws
+May 09, 2026 9:33:19 AM com.owiseman.gateway.ApiGateway start
+INFO:   Web UI:     http://0.0.0.0:18080/
+May 09, 2026 9:33:19 AM com.owiseman.desktop.DesktopApp init
+INFO: API Gateway started on port 18080
+May 09, 2026 9:33:20 AM com.owiseman.desktop.DesktopApp start
+INFO: Desktop UI started
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::allocateMemory has been called by com.sun.marlin.OffHeapArray (file:/home/acproject/workspace/java_projects/OfficeAgent/launcher/target/lib/javafx-graphics-24.0.1-linux.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sun.marlin.OffHeapArray
+WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+May 09, 2026 9:38:09 AM com.owiseman.pdf.PdfImporter importDocument
+INFO: Importing PDF: /home/acproject/Documents/Cross-Platform GUI Programming with wxWidgets.pdf
+2026-05-09T01:38:09.328302904Z  ERROR Log4j API could not find a logging provider.
+May 09, 2026 9:38:18 AM com.owiseman.desktop.DesktopApp stop
+INFO: Shutting down OfficeAgent Desktop...
+May 09, 2026 9:38:18 AM com.owiseman.gateway.ApiGateway stop
+INFO: API Gateway stopped
+May 09, 2026 9:38:18 AM com.owiseman.runtime.RuntimeContext shutdown
+INFO: Shutting down RuntimeContext...
+May 09, 2026 9:38:18 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: INITIALIZED -> SHUTTING_DOWN
+May 09, 2026 9:38:18 AM com.owiseman.runtime.task.TaskScheduler stop
+INFO: TaskScheduler stopped
+May 09, 2026 9:38:18 AM com.owiseman.runtime.task.VirtualThreadPool stop
+INFO: Virtual thread pool stopped. Total tasks executed: 0
+May 09, 2026 9:38:18 AM com.owiseman.runtime.lifecycle.LifecycleManager transitionTo
+INFO: Lifecycle transition: SHUTTING_DOWN -> TERMINATED
+May 09, 2026 9:38:18 AM com.owiseman.runtime.RuntimeContext shutdown
+INFO: RuntimeContext shut down complete
+May 09, 2026 9:38:18 AM com.owiseman.desktop.DesktopApp stop
+INFO: OfficeAgent Desktop shut down
+May 09, 2026 9:38:18 AM com.owiseman.launcher.Main lambda$main$0
+INFO: Shutdown hook triggered
+Exception in thread "Thread-0" java.lang.IllegalStateException: Invalid state transition: TERMINATED -> SHUTTING_DOWN
+	at com.owiseman.runtime.lifecycle.LifecycleManager.transitionTo(LifecycleManager.java:29)
+	at com.owiseman.runtime.RuntimeContext.shutdown(RuntimeContext.java:65)
+	at com.owiseman.launcher.RuntimeBootstrap.shutdown(RuntimeBootstrap.java:64)
+	at com.owiseman.launcher.Main.lambda$main$0(Main.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:1516)

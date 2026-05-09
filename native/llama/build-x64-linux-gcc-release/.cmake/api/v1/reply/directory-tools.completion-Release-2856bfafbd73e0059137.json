@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tools/completion/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/llama-completion"
+			],
+			"targetId" : "llama-completion::@b81dfdada76d9fb64c23",
+			"targetIndex" : 39,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/completion",
+		"source" : "tools/completion"
+	}
+}

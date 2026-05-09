@@ -1,0 +1,135 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ggml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 333,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 402,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libggml.so.0.9.4",
+				"bin/libggml.so.0"
+			],
+			"targetId" : "ggml::@64c2a4576bf370762041",
+			"targetIndex" : 31,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libggml.so"
+			],
+			"targetId" : "ggml::@64c2a4576bf370762041",
+			"targetIndex" : 31,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"ggml/include/ggml.h",
+				"ggml/include/ggml-cpu.h",
+				"ggml/include/ggml-alloc.h",
+				"ggml/include/ggml-backend.h",
+				"ggml/include/ggml-blas.h",
+				"ggml/include/ggml-cann.h",
+				"ggml/include/ggml-cpp.h",
+				"ggml/include/ggml-cuda.h",
+				"ggml/include/ggml-opt.h",
+				"ggml/include/ggml-metal.h",
+				"ggml/include/ggml-rpc.h",
+				"ggml/include/ggml-sycl.h",
+				"ggml/include/ggml-vulkan.h",
+				"ggml/include/ggml-webgpu.h",
+				"ggml/include/ggml-zendnn.h",
+				"ggml/include/gguf.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libggml-base.so.0.9.4",
+				"bin/libggml-base.so.0"
+			],
+			"targetId" : "ggml-base::@64c2a4576bf370762041",
+			"targetIndex" : 32,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libggml-base.so"
+			],
+			"targetId" : "ggml-base::@64c2a4576bf370762041",
+			"targetIndex" : 32,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/ggml",
+			"paths" : 
+			[
+				"build-x64-linux-gcc-release/ggml/ggml-config.cmake",
+				"build-x64-linux-gcc-release/ggml/ggml-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ggml",
+		"source" : "ggml"
+	}
+}
